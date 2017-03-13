@@ -123,7 +123,7 @@
         <profile>
             <id>leanft-test</id>
             <properties>
-                <test.src.dir>src</test.src.dir>
+                <test.src.dir>src/main/java</test.src.dir>
             </properties>
         </profile>
     </profiles>
