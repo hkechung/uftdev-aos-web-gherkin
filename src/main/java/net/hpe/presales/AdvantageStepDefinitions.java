@@ -1,4 +1,4 @@
-package com.hp.lft;
+package net.hpe.presales;
 
 import java.io.IOException;
 
@@ -99,6 +99,7 @@ public class AdvantageStepDefinitions
 
         //Verify.areEqual(Double.toString(dblPrice),strWebPrice.trim());
         Verify.areEqual(dblPrice, strWebPrice.trim());
+        Assert.assertTrue(dblPrice.trim().equals(strWebPrice.trim()));
         // throw new PendingException();
     }
 }

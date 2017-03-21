@@ -1,4 +1,4 @@
-package com.hp.lft.infra;
+package net.hpe.presales.infra;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

@@ -250,6 +250,7 @@ paket-files/
 ## above was created based on VisualStudio
 ## below is what was added for Intellij
 gherkinNGAResults.xml_
+OctaneGherkinResults.xml
 leanftResults.xml
 RunResults/
 

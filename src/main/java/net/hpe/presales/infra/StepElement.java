@@ -1,4 +1,4 @@
-package com.hp.lft.infra;
+package net.hpe.presales.infra;
 
 import gherkin.formatter.model.Step;
 import org.w3c.dom.Document;
