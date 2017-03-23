@@ -1,13 +1,8 @@
 package net.hpe.presales;
 
-import static org.junit.Assert.*;
 
 import com.hpe.alm.octane.OctaneCucumber;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
 import org.junit.runner.RunWith;
 import com.hp.lft.sdk.*;
 import com.hp.lft.verifications.*;

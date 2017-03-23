@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import com.hp.lft.report.ReportException;
 import com.hp.lft.report.Reporter;
+import com.hp.lft.report.Status;
 import com.hp.lft.sdk.GeneralLeanFtException;
 import com.hp.lft.sdk.web.*;
 import com.hp.lft.verifications.Verify;
@@ -98,8 +99,14 @@ public class AdvantageStepDefinitions
         String strWebPrice = browser.describe(WebElement.class, new CSSDescription(".category-type-products .cell:nth-child(2) ul .ng-scope:nth-child(1) p:nth-child(5) .productPrice")).getInnerText();
 
         //Verify.areEqual(Double.toString(dblPrice),strWebPrice.trim());
+        //This to generate the html report
         Verify.areEqual(dblPrice, strWebPrice.trim());
-        Assert.assertTrue(dblPrice.trim().equals(strWebPrice.trim()));
+
+        //Assert.assertTrue(dblPrice.trim().equals(strWebPrice.trim()));
+        //This to have junit report correct for reporting to Octane
+        if (Reporter.getStatus() == Status.Failed){
+            Assert.fail();
+        }
         // throw new PendingException();
     }
 }
