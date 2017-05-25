@@ -61,3 +61,14 @@ mvn install:install-file -Dfile="C:\Program Files (x86)\HP\Unified Functional Te
 mvn install:install-file -Dfile="C:\Program Files (x86)\HP\Unified Functional Testing\SDK\Java\com.hp.lft.report.jar" -DgroupId=com.hp.lft -DartifactId=report -Dversion=14.0.0 -Dpackaging=jar
 
 mvn install:install-file -Dfile="C:\Program Files (x86)\HP\Unified Functional Testing\SDK\Java\com.hp.lft.reportbuilder-standalone.jar" -DgroupId=com.hp.lft -DartifactId=reportbuilder -Dversion=14.0.0 -Dpackaging=jar
+
+#Process to change the test
+
+From a machine connected to the HPE network perform the following:
+
+1. git clone https://github.hpe.com/AMSPreSales-Demos/LeanFT_Gherkin
+1. git checkout -b <mybranchname>
+1. Make desired changes
+1. git commit
+1. git push
+1. Then from https://github.hpe.com/AMSPreSales-Demos/LeanFT_Gherkin perform a pull request on the branch
