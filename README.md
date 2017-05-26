@@ -67,7 +67,7 @@ mvn install:install-file -Dfile="C:\Program Files (x86)\HP\Unified Functional Te
 From a machine connected to the HPE network perform the following:
 
 1. git clone https://github.hpe.com/AMSPreSales-Demos/LeanFT_Gherkin
-1. git checkout -b <mybranchname>
+1. git checkout -b \<mybranchname\>
 1. Make desired changes
 1. git commit
 1. git push
