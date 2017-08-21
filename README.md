@@ -1,7 +1,7 @@
 # LeanFT_Gherkin
 Since the LeanFT jar files are not part of a public maven repo, maven projects will fail to grab the required jars.  This can be solved by connecting to a private maven repo or by adding the jar files to the local maven repo cache manually.
 
-The below assume you have performed a default installation of UFT Pro (LeanFT).  You would just need to adjust the path to the jar files where appropriate.  As a note for future use, cahnge the version number to match the version of LeanFT that you are using.
+The below assume you have performed a default installation of UFT Pro (LeanFT).  You would just need to adjust the path to the jar files where appropriate.  As a note for future use, change the version number to match the version of LeanFT that you are using.
 
 # Mac
 The following maven goals were used to add the 14.1.0 lft libraries to the local maven cache (.m2) for IntelliJ 2016.3.4 on a Apple Mac
