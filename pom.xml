@@ -22,36 +22,36 @@
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>sdk</artifactId>
-            <version>14.0.0</version>
+            <version>RELEASE</version>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>sdk</artifactId>
-            <version>14.0.0</version>
+            <version>RELEASE</version>
             <classifier>javadoc</classifier>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>report</artifactId>
-            <version>14.0.0</version>
+            <version>RELEASE</version>
         </dependency>
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>reportbuilder</artifactId>
-            <version>14.0.0</version>
+            <version>RELEASE</version>
         </dependency>
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>unittesting</artifactId>
-            <version>14.0.0</version>
+            <version>RELEASE</version>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>verifications</artifactId>
-            <version>14.0.0</version>
+            <version>RELEASE</version>
         </dependency>
         <dependency>
             <groupId>info.cukes</groupId>
@@ -67,16 +67,16 @@
         <dependency>
             <groupId>com.hpe.alm.octane</groupId>
             <artifactId>octane-cucumber-jvm</artifactId>
-            <version>12.53.19</version>
+            <version>RELEASE</version>
         </dependency>
     </dependencies>
 
     <repositories>
-        <repository>
+        <!--repository>
             <id>nexus</id>
             <name>nexus</name>
             <url>http://mydtbld0028.hpeswlab.net:8081/nexus/content/groups/leanft-public</url>
-        </repository>
+        </repository-->
     </repositories>
 
 

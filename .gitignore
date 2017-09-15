@@ -253,6 +253,7 @@ gherkinNGAResults.xml_
 OctaneGherkinResults.xml
 leanftResults.xml
 RunResults/
+gherkin-results/
 
 # JetBrains Rider
 .idea/
