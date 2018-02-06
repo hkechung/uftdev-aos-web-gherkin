@@ -1,4 +1,4 @@
-# LeanFT_Gherkin
+# leanft-gherkin
 Since the LeanFT jar files are not part of a public maven repo, maven projects will fail to grab the required jars.  This can be solved by connecting to a private maven repo or by adding the jar files to the local maven repo cache manually.
 
 Note: The Selenium jars are not used as part of this project but I have included the steps to add them to your local maven cache.
@@ -81,11 +81,11 @@ mvn install:install-file -Dfile="C:\Program Files (x86)\HP\Unified Functional Te
 
 # Process to change the test
 
-From a machine connected to the HPE network perform the following:
+From a machine connected to the Micro Focus network perform the following:
 
-1. git clone https://github.hpe.com/AMSPreSales-Demos/LeanFT_Gherkin
+1. git clone https://github.hpe.com/AMSPreSales-Demos/leanft-gherkin
 1. git checkout -b \<mybranchname\>
 1. Make desired changes
 1. git commit
 1. git push
-1. Then from https://github.hpe.com/AMSPreSales-Demos/LeanFT_Gherkin perform a pull request on the branch
+1. Then from https://github.hpe.com/AMSPreSales-Demos/leanft-gherkin perform a pull request on the branch
