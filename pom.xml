@@ -10,6 +10,7 @@
 
     <properties>
         <test.src.dir>src/test/java</test.src.dir>
+        <leanft.version>14.2.0</leanft.version>
     </properties>
 
     <dependencies>
@@ -22,36 +23,36 @@
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>sdk</artifactId>
-            <version>RELEASE</version>
+            <version>${leanft.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>sdk</artifactId>
-            <version>RELEASE</version>
+            <version>${leanft.version}</version>
             <classifier>javadoc</classifier>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>report</artifactId>
-            <version>RELEASE</version>
+            <version>${leanft.version}</version>
         </dependency>
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>reportbuilder</artifactId>
-            <version>RELEASE</version>
+            <version>${leanft.version}</version>
         </dependency>
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>unittesting</artifactId>
-            <version>RELEASE</version>
+            <version>${leanft.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>verifications</artifactId>
-            <version>RELEASE</version>
+            <version>${leanft.version}</version>
         </dependency>
         <dependency>
             <groupId>info.cukes</groupId>
