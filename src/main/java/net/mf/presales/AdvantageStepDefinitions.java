@@ -1,4 +1,4 @@
-package net.hpe.presales;
+package net.mf.presales;
 
 import java.io.IOException;
 
@@ -17,6 +17,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import cucumber.api.java.en.And;
+import net.mf.models.AOSModel;
 import org.junit.Assert;
 
 
@@ -26,11 +27,13 @@ import org.junit.Assert;
 public class AdvantageStepDefinitions
 {
     Browser browser;
+    AOSModel aosModel;
 
     @Before
     public void beforeVerifyScenario(Scenario scenario) throws IOException, GeneralLeanFtException, ReportException {
         //the following will start a new test node in the report
         browser = BrowserFactory.launch(BrowserType.CHROME);
+        aosModel = new AOSModel(browser);
     }
 
     @After
@@ -49,10 +52,17 @@ public class AdvantageStepDefinitions
     @And("^I select the Mice category$")
     public void i_select_the_Mice_category() throws Throwable
     {
+        /* The below code was left so you can easily see the difference between
+           descriptive programming and using the Application Models
+        ---------------------------------------------------------------------------------------------------------
         WebElement miceCategory = browser.describe(WebElement.class, new WebElementDescription.Builder()
                 .className("micesImg categoryCell").tagName("DIV").build());
         miceCategory.highlight();
         miceCategory.click();
+        */
+
+        aosModel.MICE_tile().highlight();
+        aosModel.MICE_tile().click();
     }
 
     @When("^I filter by \"([^\"]*)\" color$")

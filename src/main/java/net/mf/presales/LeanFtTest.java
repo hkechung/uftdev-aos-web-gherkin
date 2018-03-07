@@ -1,12 +1,10 @@
-package net.hpe.presales;
+package net.mf.presales;
 
 
 import com.hpe.alm.octane.OctaneCucumber;
 import org.junit.*;
 import org.junit.runner.RunWith;
 import com.hp.lft.sdk.*;
-import com.hp.lft.verifications.*;
-import cucumber.api.junit.Cucumber;
 import cucumber.api.CucumberOptions;
 import unittesting.*;
 
