@@ -9,7 +9,6 @@
     <description>LeanFT JUnit Test</description>
 
     <properties>
-        <test.src.dir>src/test/java</test.src.dir>
         <leanft.version>14.2.0</leanft.version>
     </properties>
 
@@ -24,13 +23,6 @@
             <groupId>com.hp.lft</groupId>
             <artifactId>sdk</artifactId>
             <version>${leanft.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.hp.lft</groupId>
-            <artifactId>sdk</artifactId>
-            <version>${leanft.version}</version>
-            <classifier>javadoc</classifier>
         </dependency>
 
         <dependency>
@@ -123,7 +115,4 @@
         </plugins>
 
     </build>
-
-    <profiles>
-    </profiles>
 </project>
