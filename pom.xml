@@ -80,6 +80,10 @@
                 <directory>${basedir}/src/main/features</directory>
                 <filtering>false</filtering>
             </resource>
+            <resource>
+                <directory>${basedir}/src/main/resources</directory>
+                <filtering>false</filtering>
+            </resource>
         </resources>
 
         <testSourceDirectory>src/main/java</testSourceDirectory>
