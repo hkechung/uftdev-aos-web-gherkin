@@ -46,7 +46,7 @@ public class AdvantageStepDefinitions
     {
         //browser = BrowserFactory.launch(BrowserType.CHROME);
         //browser.navigate("http://www.advantageonlineshopping.com/#/");
-        browser.navigate("http://dockerserver:8000/#/");
+        browser.navigate("http://nimbusserver:8000/#/");
     }
 
     @And("^I select the Mice category$")
