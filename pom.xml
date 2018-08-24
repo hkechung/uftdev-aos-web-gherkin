@@ -9,7 +9,7 @@
     <description>LeanFT JUnit Test</description>
 
     <properties>
-        <leanft.version>14.3.0</leanft.version>
+        <leanft.version>14.50.0</leanft.version>
     </properties>
 
     <dependencies>
