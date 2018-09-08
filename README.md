@@ -93,6 +93,6 @@ Perform the following:
 1. git clone https://github.com/admpresales/leanft-gherkin.git
 1. git checkout -b \<mybranchname\>
 1. Make desired changes
-1. git commit
-1. git push
+1. git commit . -m "your comments"
+1. git push -u origin \<mybranchname\>
 1. Then from https://github.hpe.com/admpresales/leanft-gherkin perform a pull request on the branch
