@@ -88,9 +88,9 @@ mvn install:install-file  -Dfile="C:\Program Files (x86)\HP\Unified Functional T
 ```
 # Process to change the test
 
-From a machine connected to the Micro Focus network perform the following:
+Perform the following:
 
-1. git clone https://github.hpe.com/admpresales/leanft-gherkin
+1. git clone https://github.com/admpresales/leanft-gherkin.git
 1. git checkout -b \<mybranchname\>
 1. Make desired changes
 1. git commit
