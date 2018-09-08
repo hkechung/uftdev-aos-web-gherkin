@@ -61,9 +61,9 @@ mvn install:install-file  -Dfile=/Applications/LeanFT/Tools/appmodel-code-genera
 
 /usr/bin/mvn install:install-file -Dfile=/opt/leanft/sdk/Maven/com.hp.lft.verifications-14.50.0.jar -DpomFile=/opt/leanft/sdk/Maven/com.hp.lft.verifications-14.50.0-pom.xml
 
-/usr/bin/mvn install:install-file  -Dfile=/opt/leanft//Tools/appmodel-code-generator/Java/appmodel-code-generator-helper.jar  -DpomFile=/opt/leanft//Tools/appmodel-code-generator/Java/appmodel-code-generator-helper-pom.xml
+/usr/bin/mvn install:install-file  -Dfile=/opt/leanft/Tools/appmodel-code-generator/Java/appmodel-code-generator-helper.jar  -DpomFile=/opt/leanft/Tools/appmodel-code-generator/Java/appmodel-code-generator-helper-pom.xml
 
-/usr/bin/mvn install:install-file  -Dfile=/opt/leanft//Tools/appmodel-code-generator/Java/appmodel-code-generator-mojo-14.50.0.jar  -DpomFile=/opt/leanft//Tools/appmodel-code-generator/Java/appmodel-code-generator-mojo-14.50.0-pom.xml
+/usr/bin/mvn install:install-file  -Dfile=/opt/leanft/Tools/appmodel-code-generator/Java/appmodel-code-generator-mojo-14.50.0.jar  -DpomFile=/opt/leanft/Tools/appmodel-code-generator/Java/appmodel-code-generator-mojo-14.50.0-pom.xml
 ```
 
 # Windows
