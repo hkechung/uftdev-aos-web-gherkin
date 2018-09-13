@@ -95,4 +95,4 @@ Perform the following:
 1. Make desired changes
 1. git commit . -m "your comments"
 1. git push -u origin \<mybranchname\>
-1. Then from https://github.hpe.com/admpresales/leanft-gherkin perform a pull request on the branch
+1. Then from https://github.com/admpresales/leanft-gherkin perform a pull request on the branch
