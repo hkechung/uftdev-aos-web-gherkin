@@ -5,6 +5,17 @@ Note: The Selenium jars are not used as part of this project but can be added us
 
 The below assume you have performed a default installation of UFT Pro (LeanFT).  You would just need to adjust the path to the jar files where appropriate.  As a note for future use, change the version number to match the version of LeanFT that you are using.
 
+# Contribute back changes
+
+Perform the following:
+
+1. Clone the project `git clone https://github.com/admpresales/leanft-gherkin.git`
+1. Create your feature branch `git checkout -b \<mybranchname\>`
+1. Make desired changes
+1. Commit your changes `git commit . -m "your comments"`
+1. Push to the branch `git push -u origin \<mybranchname\>`
+1. Create new Pull Request from https://github.com/admpresales/leanft-gherkin
+
 # Mac
 The following maven goals were used to add the 14.50.0 lft libraries to the local maven cache (.m2) for IntelliJ 2017.3 on a Apple Mac
 The lines below were executed using IntelliJ UI.
@@ -86,13 +97,3 @@ mvn install:install-file  -Dfile="C:\Program Files (x86)\HP\Unified Functional T
 
 mvn install:install-file  -Dfile="C:\Program Files (x86)\HP\Unified Functional Testing\Tools\appmodel-code-generator-mojo-14.50.0.jar"  -DpomFile="C:\Program Files (x86)\HP\Unified Functional Testing\Tools\appmodel-code-generator/Java/appmodel-code-generator-mojo-14.50.0-pom.xml"
 ```
-# Process to change the test
-
-Perform the following:
-
-1. git clone https://github.com/admpresales/leanft-gherkin.git
-1. git checkout -b \<mybranchname\>
-1. Make desired changes
-1. git commit . -m "your comments"
-1. git push -u origin \<mybranchname\>
-1. Then from https://github.com/admpresales/leanft-gherkin perform a pull request on the branch
