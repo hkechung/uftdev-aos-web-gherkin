@@ -257,17 +257,14 @@ gherkin-results/
 #the models get generated automatically with the appmodel-generator-mojo plugin so they can be removed from commits
 appmodels/
 
-# JetBrains Rider
-.idea/
-*.sln.iml
-
 # Eclipse
 .classpath
 .project
 .settings/
 
 # Intellij
-.idea/
+.idea/*
+!*.idea/misc.xml
 *.iml
 *.iws
 
