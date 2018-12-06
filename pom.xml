@@ -3,10 +3,10 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.hp.lft</groupId>
-    <artifactId>Maven-Demo-Example</artifactId>
+    <artifactId>leanft-gherkin</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>LeanFT JUnit Test</name>
-    <description>LeanFT JUnit Test</description>
+    <name>LeanFT Gherkin JUnit Test</name>
+    <description>LeanFT Gherkin JUnit Test</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
