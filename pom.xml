@@ -3,13 +3,14 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.hp.lft</groupId>
-    <artifactId>Maven-Demo-Example</artifactId>
+    <artifactId>leanft-gherkin</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>LeanFT JUnit Test</name>
-    <description>LeanFT JUnit Test</description>
+    <name>LeanFT Gherkin JUnit Test</name>
+    <description>LeanFT Gherkin JUnit Test</description>
 
     <properties>
-        <leanft.version>14.50.0</leanft.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <leanft.version>RELEASE</leanft.version>
     </properties>
 
     <dependencies>
@@ -91,6 +92,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
