@@ -121,7 +121,6 @@
             <plugin>
                 <groupId>com.hpe.lft</groupId>
                 <artifactId>appmodel-generator-mojo</artifactId>
-                <version>${leanft.version}</version>
                 <executions>
                     <execution>
                         <phase>validate</phase>
