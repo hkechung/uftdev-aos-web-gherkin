@@ -9,4 +9,5 @@
   </component>
   <component name="OctanePluginConnectionSettings" Url="http://nimbusserver.aos.com:8085" SharedSpace="1001" WorkSpace="1002" User="sa@nga" SSO="false" />
   <component name="OctanePluginState" SEARCH_HISTORY="{&quot;SEARCH_HISTORY&quot;:[]}" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
