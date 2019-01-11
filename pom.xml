@@ -10,7 +10,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <leanft.version>RELEASE</leanft.version>
+        <leanft.version>14.51.0</leanft.version>
     </properties>
 
     <dependencies>
@@ -121,6 +121,7 @@
             <plugin>
                 <groupId>com.hpe.lft</groupId>
                 <artifactId>appmodel-generator-mojo</artifactId>
+                <version>${leanft.version}</version>
                 <executions>
                     <execution>
                         <phase>validate</phase>
