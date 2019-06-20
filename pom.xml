@@ -61,7 +61,7 @@
         <dependency>
             <groupId>com.hpe.alm.octane</groupId>
             <artifactId>octane-cucumber-jvm</artifactId>
-            <version>RELEASE</version>
+            <version>12.55.7</version>
         </dependency>
     </dependencies>
 
