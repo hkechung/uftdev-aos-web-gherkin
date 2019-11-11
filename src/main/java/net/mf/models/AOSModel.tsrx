@@ -9,7 +9,7 @@
             <description></description>
             <identification>
                 <properties>
-                    <property name="ClassName" type="string" isRegExp="false">micesImg categoryCell</property>
+                    <property name="ClassName" type="string" isRegExp="false">miceImg categoryCell</property>
                     <property name="InnerText" type="string" isRegExp="true">MICE.*</property>
                     <property name="TagName" type="string" isRegExp="false">DIV</property>
                 </properties>

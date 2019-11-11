@@ -12,4 +12,4 @@ Feature: Advantage Online
 		Examples:
 			| color  | price |
 			| white  | $29.99 |
-			| purple | $9.99 |
+			| purple | $15.99 |
