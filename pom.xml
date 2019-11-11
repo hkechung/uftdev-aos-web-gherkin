@@ -10,7 +10,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <leanft.version>14.52.0</leanft.version>
+        <leanft.version>14.53.0</leanft.version>
     </properties>
 
     <dependencies>
