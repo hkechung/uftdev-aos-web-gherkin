@@ -44,8 +44,8 @@ public class AdvantageStepDefinitions
     public void i_am_in_the_site() throws Throwable
     {
         //browser = BrowserFactory.launch(BrowserType.CHROME);
-        //browser.navigate("http://www.advantageonlineshopping.com/#/");
-        browser.navigate("http://nimbusserver:8000/#/");
+        browser.navigate("http://www.advantageonlineshopping.com/#/");
+        //browser.navigate("http://nimbusserver:8000/#/");
     }
 
     @And("^I select the Mice category$")
