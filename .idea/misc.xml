@@ -7,7 +7,7 @@
       </list>
     </option>
   </component>
-  <component name="OctanePluginConnectionSettings" Url="http://nimbusserver.aos.com:8085" SharedSpace="1001" WorkSpace="1002" User="sa@nga" SSO="false" />
-  <component name="OctanePluginState" SEARCH_HISTORY="{&quot;SEARCH_HISTORY&quot;:[]}" OPEN_TABS="{&quot;openDetailTabs&quot;:[]}" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="OctanePluginConnectionSettings" Url="http://192.168.180.129:8080" SharedSpace="1001" WorkSpace="3001" User="admin@default.com" SSO="false" />
+  <component name="OctanePluginState" SEARCH_HISTORY="{&quot;SEARCH_HISTORY&quot;:[]}" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
